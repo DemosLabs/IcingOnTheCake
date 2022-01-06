@@ -88,7 +88,7 @@ Launch the docker compose project including the Traefik definitions:
 ```shell
 docker-compose -f docker-compose.yml \
                -f docker-compose.traefik.yml \
-               -f docker-compose.traefik-config.yml \
+               -f docker-compose.traefik-services.yml \
                up -d
 ```
 
